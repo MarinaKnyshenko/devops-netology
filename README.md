@@ -7,10 +7,11 @@
 
 ## Задание 2.
 
-Будут проигнорированы локальные файлы из дирректории .terraform
-файлы .tfstate
-crash.log файлы
-.tfvars файлы
-override файлы
-файл .terraform.tfstate.lock.info
-CLI configuration files
+Будут проигнорированы:
+* локальные файлы из дирректории .terraform
+* файлы .tfstate
+* crash.log файлы
+* .tfvars файлы
+* override файлы
+* файл .terraform.tfstate.lock.info
+* CLI configuration files
