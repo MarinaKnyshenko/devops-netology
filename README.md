@@ -15,3 +15,5 @@
 * файлы override.tf и override.tf.json. все файлы, которые оканчиваются на "_override.tf" или "_override.tf.json"
 * файл .terraform.tfstate.lock.info
 * файлы .terraformrc и terraform.rc
+
+Учимся работать с редактором
