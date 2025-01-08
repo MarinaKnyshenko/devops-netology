@@ -179,7 +179,7 @@ To abort and get back to the state before "git rebase", run "git rebase --abort"
 Could not apply dc4688f... git 2.3 rebase @ instead *
 ```
 
-![conflict1](conflict1.png)
+![conflict1](conflict_1.png)
 
 Если посмотреть содержимое файла `rebase.sh`, то увидим метки, оставленные Git для решения конфликта:
 
@@ -208,7 +208,7 @@ echo "\$@ Parameter #$count = $param"
 
 **Шаг 5.** Опять получим конфликт в файле `rebase.sh` при попытке применения нашего второго коммита. Давайте разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
-![conflict2](conflict2.png)
+![conflict2](conflict_2.png)
 
 **Шаг 6.** Далее опять сообщаем Git о том, что конфликт разрешён — `git add rebase.sh` — и продолжим `rebase — git rebase --continue`.
 
